@@ -8,5 +8,9 @@ module.exports = {
             include:  __dirname + '/app',
             loader: 'babel?presets[]=es2015'
         }]
+    },
+    output: {
+        filename: 'index_bundle.js',
+        path: __dirname + '/dist'
     }
 }
