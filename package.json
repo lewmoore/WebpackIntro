@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lewmoore/WebpackIntro#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.19.1"
   },
   "dependencies": {
